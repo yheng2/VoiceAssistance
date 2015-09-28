@@ -127,7 +127,7 @@
 		8C5914C019B71AFF00B40F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5E50671A3311F10047717E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8CA3032919CB3F040020A510 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
-		8CA3032B19CB3F200020A510 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		8CA3032B19CB3F200020A510 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAppDelegate.h; path = ../OpenEarsSampleApp/TestAppDelegate.h; sourceTree = "<group>"; };
 		8CA4BFB119ACA96D007CA626 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
 		8CA4BFB219ACA96D007CA626 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
 		8CA4BFB319ACA96D007CA626 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
@@ -236,7 +236,6 @@
 			children = (
 				8C2F9B7F1507BEF20031011A /* AppDelegate.h */,
 				8C2F9B801507BEF20031011A /* AppDelegate.m */,
-				8CA3032B19CB3F200020A510 /* TestAppDelegate.h */,
 				8CA3032919CB3F040020A510 /* TestAppDelegate.m */,
 				8C2F9B821507BEF20031011A /* ViewController.h */,
 				8C2F9B831507BEF20031011A /* ViewController.m */,
@@ -266,6 +265,7 @@
 			children = (
 				8C33F38D1A10F9CB00D56709 /* OETestTools.h */,
 				8C33F38E1A10F9CB00D56709 /* OETestTools.m */,
+				8CA3032B19CB3F200020A510 /* TestAppDelegate.h */,
 				8CB74E6619D99B4E003DBD26 /* OELanguageModelGeneratorTests.m */,
 				8CB74E6719D99B4E003DBD26 /* OEPocketsphinxControllerTests.m */,
 				8CEB795E1A321C4A00527803 /* OEPocketsphinxControllerFuzzingTests.m */,
